@@ -1,2 +1,2 @@
-require './evh3'
+require './main'
 run Sinatra::Application
