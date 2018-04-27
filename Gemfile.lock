@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     mustermann (1.0.2)
+    pg (1.0.0)
     puma (3.11.4)
     rack (2.0.5)
     rack-protection (2.0.1)
@@ -11,15 +12,18 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.1)
       tilt (~> 2.0)
+    sqlite3 (1.3.13)
     tilt (2.0.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  pg
   puma
   rack
   sinatra
+  sqlite3
 
 BUNDLED WITH
    1.16.1
