@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
+gem 'puma'
 gem 'rdiscount'
 gem 'data_mapper'
 gem 'dm-migrations'
